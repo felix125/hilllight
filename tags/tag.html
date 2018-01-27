@@ -1,7 +1,13 @@
 ---
-title: 所有文章
-layout: page
+layout: default
 ---
+<h1>
+    <span> 文章列表 </span>
+    <a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration:none;color:#003D79">
+    <span><a href="{{ '/tags/list.html' | prepend: site.baseurl }}"><span style="text-decoration:none" class="tag-top">[ 依時間 ]</span></a></span>
+    <hr color="#b0b0b0" size="1" />
+</h1>
+
 
 {% comment %}
 =======================
